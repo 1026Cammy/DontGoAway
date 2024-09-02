@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cammy the DJ</title>
+  <style>
+    body {
+      background-color: rgb(37, 37, 37);
+      margin: 0;
+    }
+    a {
+      color: aliceblue;
+    }
+    #audio-container1 {
+      height: 450px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #content-container1 {
+      margin-top: 500px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="audio-container1">
+      <audio id="myAudio" controls>
+          <source src="https://github.com/1026Cammy/Cammy/raw/main/Oasis_don't%20go%20away.mp3?raw=true" type="audio/mpeg">
+      </audio>
+    </div>
+  <div class="content-container1">
+    <h1>One song a day, sadness away. Enjoy!</h1>
+  </div>
+
+  const audioElement = document.getElementById('myAudio');
+audioElement.src = 'https://github.com/1026Cammy/Cammy/raw/main/Oasis_don't%20go%20away.mp3?raw=true';
+  
+</script>
+</body>
+</html>
